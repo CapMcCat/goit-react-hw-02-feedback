@@ -5,12 +5,6 @@ import Statistics from './components/Statistics/Statistics';
 import Notification from './components/Notification/Notification';
 
 class App extends Component {
-  static defaultProps = {
-    good: 0,
-    neutral: 0,
-    bad: 0,
-  };
-
   state = {
     good: 0,
     neutral: 0,
